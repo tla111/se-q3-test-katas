@@ -1,6 +1,8 @@
 import unittest
 import katas
 
+__author__ = "Timothy La (tla111)"
+
 
 class TestKatas(unittest.TestCase):
     def test_add(self):
