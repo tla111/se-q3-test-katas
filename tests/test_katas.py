@@ -1,4 +1,5 @@
 import unittest
+import calc
 import katas
 
 __author__ = "Timothy La (tla111)"
@@ -6,7 +7,8 @@ __author__ = "Timothy La (tla111)"
 
 class TestKatas(unittest.TestCase):
     def test_add(self):
-        self.fail("TODO: Write add unit test")
+        result = calc.add(10, 5)
+        self.assertEqual(result, 15)
 
     def test_multiply(self):
         self.fail("TODO: Write multiply unit test")
